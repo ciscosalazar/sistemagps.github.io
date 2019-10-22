@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="estilo.css">
     
-    <meta http-equiv="refresh" content="30">
+    <meta http-equiv="refresh" content="45">
     <title>Geolocalizacion Arduino</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
@@ -21,19 +21,25 @@
       </div>
     </header>
     <div class="contenedor wrapper">
-        <h1>Ubicación de dispositivo arduino</h1>
+        <h1>Registro de ubicaciones de dispositivo Arduino</h1>
+        <div>
+          <br>
+          <p>
+            Al hacer clic en los marcadores diversos marcadores ubicados en el mapa puede observar los detalles correspondientes
+            a esa ubicacion seleccinada.
+          </p>
+        </div>
         <br>
         <div id="mapid" style="width: 95%; height: 500px;"></div>
-        <script src="script.js"></script>
+        <script src="main.js"></script>
       <br>
       <hr/>
       <br>
-      <h2><strong>Velocidad del dispositivo</strong></h2>
+      <h2><strong>Ultima velocidad registrada del dispositivo</strong></h2>
       <br>
       <div class="embed-container wrapper">
           <iframe src="https://thingspeak.com/channels/783913/widgets/106589" width="500%" height="250" ></iframe>
-      </div>
-        
+      </div>  
     </div>
   </body>
 </html>
