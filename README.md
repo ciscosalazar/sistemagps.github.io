@@ -5,7 +5,8 @@
 Sistema de Geolocalizacion basado en software y hardware libre. Las funcionalidades mas
 destacadas de este prototipo son la integracion con Leaflet, libreria para mapas
 para JavaScript la cual sustituye la dependencia de Google Maps.
-<b>
+
+
   El enfoque proyecto fue logar un MVP, logrando asi poder realizar el testing del sistema con grandes resultados.
   
   Puedes entrar aqui y observer como quedo https://ciscosalazar.github.io/sistemagps.github.io/ 
