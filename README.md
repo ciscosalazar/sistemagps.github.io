@@ -4,15 +4,15 @@
 Sistema de Geolocalizacion basado en software y hardware libre. Las funcionalidades mas
 destacadas de este prototipo son la integracion con Leaflet, libreria para mapas
 para JavaScript la cual sustituye la dependencia de Google Maps.
-<hr>
-
 
 ## Tecnologias implementadas
+
 ### Software
 <ul>
   <li>Leaflet</li>
   <li>ThingSpeak</li>
 </ul>
+
 ### Hardware
 <ul>
   <li>Arduino Uno</li>
